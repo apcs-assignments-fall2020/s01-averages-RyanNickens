@@ -90,7 +90,7 @@ public class MyMain {
             int count = 0;
             for (int y = 0; y < arr.length; y++) {
                 if (arr[y] == arr[x])
-                ++count;
+                count++;
             }
 
             if (count > max) {
